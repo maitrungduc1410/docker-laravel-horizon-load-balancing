@@ -6,6 +6,13 @@
   Docker Laravel Load Balancing
 </h1>
 
+# How it works
+This project demo how to use HAProxy as a load balancing stands in front of Nginx webservers which serve Laravel Application behind
+
+Flow:
+```                 
+Request -> HAProxy -> Nginx instances -> Laravel app
+```
 # How to run
 
 From root project, run:
