@@ -27,7 +27,7 @@ Now access `localhost:8000` and try refresh browser, each time you'll see your r
 Laravel Horizon is running at `localhost:8000/horizon`
 
 > You can disable it by comment `ENABLE_HORIZON` in `Dockerfile`
-## Laravel Task Schedulinng
+## Laravel Task Scheduling
 Laravel Task Scheduling is configured at `app/Console/Kernel.php` and auto run for you, you can check by opening `storage/log/laravel.log`, if you see `Scheduler is running`, that means everything is fine
 
 > You can disable it by comment `ENABLE_CRONTAB` in `Dockerfile`
